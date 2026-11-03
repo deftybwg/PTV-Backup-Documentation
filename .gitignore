@@ -1,0 +1,12 @@
+# Credentials and configuration
+*.conf
+*passphrase*
+*.asc
+*.key
+
+# Backup archives
+*.tar.gz
+*.gpg
+
+# Temporary files
+*.tmp
