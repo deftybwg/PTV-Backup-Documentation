@@ -1,11 +1,10 @@
-
 #!/usr/bin/env bash
 
 set -Eeuo pipefail
 
 # Configuration
-SOURCE="/home/ben"
-BACKUP_DIR="/home/ben/backups/PTV"
+SOURCE="/home/benxo"
+BACKUP_DIR="/home/benxo/backups/PTV"
 GDRIVE_REMOTE="gdrive:PTV-backups"
 
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
