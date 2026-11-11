@@ -45,7 +45,8 @@ reconspider\
 waybackurls\
 subfinder\
 puredns\
-sourcefinder
+sourcefinder\
+csprecon
 
 ## Active Recon
 ffuf\
