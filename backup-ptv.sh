@@ -102,19 +102,6 @@ echo "[*] Uploading to Google Drive..."
 rclone copy "$ENCRYPTED_PATH" "$GDRIVE_REMOTE" \
     --progress
 
-# Verify remote file exists and has matching size
-LOCAL_SIZE=$(stat -c%s "$ENCRYPTED_PATH")
-REMOTE_SIZE=$(rclone size "$GDRIVE_REMOTE" \
-    --json | python3 -c \
-    "import sys,json; print(sum(x['Size'] for x in json.load(sys.stdin)['Hashes'].values()) if False else json.load(open('/dev/null')))" 2>/dev/null || true)
-
-if ! rclone check "$BACKUP_DIR" "$GDRIVE_REMOTE" \
-    --one-way \
-    --include "$ENCRYPTED"; then
-    echo "[!] Upload verification failed!"
-    exit 1
-fi
-
 # ==========================================
 # REMOVE UNENCRYPTED ARCHIVE
 # ==========================================
