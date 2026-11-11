@@ -1,4 +1,4 @@
-# PTV Encrypted Backup
+# Pentest Vault Encrypted Backup
 
 A simple Linux backup solution that compresses, encrypts and uploads my personal PTV knowledge base to Google Drive.
 
