@@ -25,12 +25,15 @@ go & ligolo agents
 
 ## Windows Priv Esc
 Powersploit scripts\
+Privesccheck.ps1\
 Winpeas\
 seatbelt\
 mimikatz\
 go & ligolo agents\
 chisel4windows\
 msfvenom, metasploit
+potato exes
+nc32 and nc64
 
 ## Web
 ## Passive Recon
@@ -52,6 +55,7 @@ alterx\
 nikto for v old web\
 gitdumper\
 nuclei\
+wpscan\
 
 ## Payloads
 SecLists\
@@ -92,6 +96,14 @@ mobsf\
 jadx\
 Frida\
 Burp
+
+## Linux Priv Esc
+linpeas.sh\
+pspy64 & pspy32
+lse.sh
+
+
+
 
 
 
