@@ -1,6 +1,6 @@
 # Tools for PenTest Container
 
-Ur host OS could keep wordlist txt files, lin, win, and exe's like Winpeas, ligolo agents, etc in the ~/Utils folder which the container could then mount so as to share.
+Ur host OS could keep wordlist txt files, lin, win, and exe's like Winpeas, ligolo agents, etc in the /opt/Utils folder which the container could then mount so as to share.
 But you would want the below tools installed so you could use them from the container.
 
 The goal is to keep the environment easy to move between machines while still giving you a repeatable toolbox.
